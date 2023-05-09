@@ -1,12 +1,13 @@
 
-import './App.css'
-import ClassCounter from './Components/ClassCounter'
 
+import ClassCounter from './Components/ClassCounter'
+import HookCounterTwo from './Components/HookCounterTwo'
 function App() {
 
   return (
     <>
-     <ClassCounter />
+     
+     <HookCounterTwo />
     </>
   )
 }
