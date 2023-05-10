@@ -1,14 +1,13 @@
 
-
-import ClassCounter from './Components/ClassCounter'
-import HookCounterThree from './Components/HookCounterThree'
-import HookCounterFour from './Components/HookCounterFour'
+import HookCounterOne from "./Components/HookCounterOne"
+import ClassCounterOne from "./Components/ClassCounterOne"
 function App() {
 
   return (
     <>
      
-   <HookCounterFour />
+   
+   <HookCounterOne />
     </>
   )
 }
