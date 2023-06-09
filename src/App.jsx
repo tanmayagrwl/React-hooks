@@ -1,13 +1,14 @@
+import React, {component} from "react"
 
-import HookCounterOne from "./Components/HookCounterOne"
-import ClassCounterOne from "./Components/ClassCounterOne"
-import DataFetching from "./Components/DataFetching"
+import ComponentC from "./Components/ComponentC"
+import { UserProvider } from "./Components/UserContext"
 function App() {
 
   return (
     <>
-     <DataFetching />
-   
+    <UserProvider value="Tanmay">
+       <ComponentC />
+     </UserProvider>
    
     </>
   )
