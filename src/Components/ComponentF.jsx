@@ -1,16 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Component } from 'react'
-import { UserConsumer } from './UserContext'
+import { UserConsumer, UserContext } from './UserContext'
 
 function ComponentF() {
+  const value = useContext(UserContext)
   return (
-    <UserConsumer>
-    {username => {
-        return <div>Hello {username}</div>
-    }
-
-    }
-    </UserConsumer>
+     <div>Hello{value}</div>
+  
+   
   )
 }
 
